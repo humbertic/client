@@ -1,0 +1,72 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BmLXMxMTEtbW4tY2F1bGlmbG93ZXItYnJvY2NvbGktY2Fycm90LWFwcGxlLXB1cmVlLTAyXzEuanBn.jpg');
+
+}
+.welcome{
+    margin: 2rem auto;
+    font-weight: 700;
+    font-size: 2rem;
+    /* margin-bottom: 2rem; */
+}
+.login-form {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 10px 15px 10px gray;
+    max-width: 700px;
+    padding: 1rem;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.username-container,.password-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.label{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.input {
+    /* cursor: pointer; */
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    font-style: inherit;
+    font-weight: 500;
+    font-size: 1rem;
+    box-shadow: 5px 6px 4px gray;
+    
+}
+.input:focus{
+    outline: none;
+    border: 2px solid black;
+
+}
+.btn-login {
+    cursor: pointer;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transform: background-color 0.3s ease,transform 0.3s ease;
+}
+
+.btn-login:hover {
+    transform: scale(1.02);
+    background-color: rgb(18, 18, 18,0.7);
+}

@@ -1,0 +1,48 @@
+
+.restaurant-list {
+    height: calc(100vh + 80px);
+    overflow: hidden;
+    margin-left: 1rem;
+    
+}
+
+
+/* Adjust the card width and add spacing */
+.carousel-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 2rem;
+    max-width: 400px;
+}
+
+
+.restaurant-list>h2 {
+    margin-top: 80px;
+    text-align: left;
+    padding-top: 1rem;
+}
+.btn-container {
+    padding:  0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-viewall {
+    font-size: inherit;
+    background-color: black;
+    width: 100px;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-viewall:hover {
+    background-color: rgba(24, 24, 24, 0.9);
+    transform: scale(1.025);
+}

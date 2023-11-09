@@ -1,0 +1,91 @@
+#navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: top 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+    color: black;
+    height: 80px;
+    z-index: 2;
+}
+
+.red-letter {
+    color: red;
+}
+
+.ul-navBar {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    font-weight: 600;
+}
+
+
+
+.ul-navBar>li {
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+.ul-navBar>li:hover {
+    border-bottom: 2px solid red;
+}
+
+
+.buttons-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;color: black;
+}
+
+.login-btn {
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, background-color 0.3s ease, transform 0.2s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.login-btn:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(253, 251, 251,0.7);
+    transform: scale(1.025);
+}
+
+.signup-btn {
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease-out;
+}
+
+.signup-btn:hover {
+    background-color: rgba(24, 24, 24, 0.9);
+    transform: scale(1.025);
+}
+
+@media (max-width:768px) {
+    .main-container {
+        flex-direction: column;
+        font-size: medium;
+    }
+    
+    .ul-navBar {
+        margin: 20px;
+    }
+}
